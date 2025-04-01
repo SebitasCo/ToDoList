@@ -1,0 +1,129 @@
+.tasks-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.title-task {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.container-submit-task {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.input-task, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn-submit-task {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-submit-task:hover {
+  opacity: 0.8;
+}
+
+.filter-task {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filter-task button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.task-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.task-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.task-checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.task-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.delete-task-button {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-task-button:hover {
+  background-color: darkred;
+}
